@@ -16,10 +16,10 @@
 define('prefix', 'ftree_v1_4_');
 
 $connect = [
-	'HOSTNAME' => 'put here your hostname', // HOST NAME
-  'USERNAME' => 'put here the database username',      // DATABASE USERNAME
-  'PASSWORD' => 'put here the database password',      // DATABASE PASSWORD
-  'DATABASE' => 'put here the database name' // DATABASE NAME
+	'HOSTNAME' => 'mstc-family-legacy-explorer-server', // HOST NAME
+  'USERNAME' => 'smzwyhrigm',      // DATABASE USERNAME
+  'PASSWORD' => '5JY5104G607YQVQQ$',      // DATABASE PASSWORD
+  'DATABASE' => 'postgres' // DATABASE NAME
 ];
 
 $db = new mysqli($connect['HOSTNAME'], $connect['USERNAME'], $connect['PASSWORD'], $connect['DATABASE']);
